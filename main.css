@@ -113,6 +113,7 @@ ul li:hover .overlay-img-link {
 
     .overlay-img-link {
         font-size: small;
+        opacity: 1;
     }
 }
 
@@ -124,6 +125,10 @@ ul li:hover .overlay-img-link {
 
     ul li {
         max-width: 100%;
+    }
+
+    .overlay-img-link {
+        opacity: 1;
     }
 
     form {
