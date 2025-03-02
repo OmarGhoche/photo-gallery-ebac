@@ -72,10 +72,10 @@ ul li img {
 
 .overlay-img-link {
     padding: 16px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
     bottom: 5px;
-    left: 5px ;
+    left: 5px;
     width: calc(100% - 10px);
     opacity: 0;
     transition: all ease .5s;
@@ -129,9 +129,6 @@ ul li:hover .overlay-img-link {
 
     .overlay-img-link {
         opacity: 1;
-    }
-
-    form {
-        padding: 16px;
+        bottom: 10px;
     }
 }
